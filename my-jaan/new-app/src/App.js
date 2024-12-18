@@ -5,6 +5,9 @@ function App() {
   return (
     <div className="App">
      <h1>HAYAT-JAHANGIR-KHAN</h1>
+     <p>Regularly npm update aur npm audit fix commands run karke dependencies ko latest rakho. bjbcbdcbcabacbacbbca
+
+     </p>
     </div>
   );
 }
