@@ -1,3 +1,0 @@
-function DogCard(){
-    return
-}
