@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dog{
+  width: 200px;
+  height: 200px;
+  /* background-image: url('https://www.dogtime.com/assets/uploads/2016/05/puppy-dog-1-1280x720.jpg'); */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  /* position: relative; */
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
