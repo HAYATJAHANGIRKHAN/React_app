@@ -4,13 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import DogCard from './DogCard';
+import Person from './Person';
+import Button from './Button';
+import Header from './Header';
+import List from './List';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <DogCard/>
-    <DogCard/>
+    {/* <DogCard/> */}
+    {/* <DogCard/> */}
+    <Person/>
+    <Button/>
+    <Header/>
+    {/* <List/> */}
   </React.StrictMode>
 );
 
