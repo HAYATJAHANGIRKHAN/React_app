@@ -28,9 +28,9 @@ function Counter(){
     }
     return(
         <>
-        count{x}
+        count{x} is {(x%2==0)? 'even':'odd'}
         <button onClick={()=>setx(x+1)}>inc</button>
-        <button onClick={()=>setx(x-1)}>dec</button>
+        <button onClick={()=>setx(x-1)}> dec</button>
         <button onClick={()=>setx(0)}>reset</button>
        
 
