@@ -30,5 +30,7 @@ Done. Now run:
   npm install
   npm run dev
 
-
+for Redux
+npm init -y
+npm install redux
   
