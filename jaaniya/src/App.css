@@ -6,3 +6,7 @@
   /* height: 100vh; */
   /* display: grid; */
   /* place-items: center; */
+
+  :root{
+    --yellow: #ffc107;
+  }
