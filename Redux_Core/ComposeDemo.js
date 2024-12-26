@@ -1,3 +1,4 @@
+import { compose } from 'redux';
 function removeSpaces(string){
     return string.split(" ").join(" ");
 }
@@ -12,6 +13,9 @@ function removeSpaces(string){
  
 //  console.log(repeatString('Mohd Sulaiman wani'));
 // console.log(convertToUpper('jahangir ahmad khan'));
-const input= 'hayat jahangir khan tricolbal'
-const output=convertToUpper(repeatString(removeSpaces(input)));
-console.log(output);
+const input= 'hayat jahangir khan tricolbal';
+// const output=convertToUpper(repeatString(removeSpaces(input))); // with out Redux
+// console.log(output);
+
+const composedFunction = compose(removeSpaces,repeatString, convertToUpper); // with Redux 
+console.log(composedFunction(input));
