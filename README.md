@@ -30,7 +30,11 @@ Done. Now run:
   npm install
   npm run dev
 
+
+# Redux Core Apis
 for Redux
 npm init -y
 npm install redux
+
+
   
