@@ -36,5 +36,8 @@ for Redux
 npm init -y
 npm install redux
 
+# Redux Toolkit
+npm install  @reduxjs/toolkit 
+
 
   
